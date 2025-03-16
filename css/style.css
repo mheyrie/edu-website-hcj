@@ -160,9 +160,6 @@ header{
     height: 100%;
 }
 
- .header__left p{
-    margin: 1rem 0 2.4rem;
- }
 .header__left .hero-text {
     font-style: normal;
     font-weight: 700;
@@ -174,5 +171,8 @@ header{
     background-clip: text;
   }
 
+ .header__left p{
+    margin: 1rem 0 2.4rem;
+ }
  
   
