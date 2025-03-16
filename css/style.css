@@ -1,0 +1,21 @@
+/* Over-ride default browser styles */
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* CSS Variables help to customize work page and helps in DRY */
+/* #d4a373
+#e9c46a
+#4a5759
+#d5bdaf
+#6c584c */
+:root{
+--color-primary: #bc6c25;
+
+}
