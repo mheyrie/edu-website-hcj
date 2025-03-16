@@ -16,7 +16,7 @@
 #d5bdaf
 #6c584c */
 :root {
-  --color-primary: #bc6c25;
+  --color-primary: #e9c46a;
   --color-success: #00bf8e;
   --color-warning: #4a5759;
   --color-danger: #f75842;
@@ -28,9 +28,53 @@
   --color-bg1: #d5bdaf;
   --color-bg2: #4a5759;
 
-  --container-width-lg: 76%;
+  --container-width-lg: 80%;
   --container-width-md: 90%;
   --container-width-sm: 95%;
 
   ---transition: all 0.4s ease;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  line-height: 1.7;
+  color: var(--color-white);
+  background: var(--color-bg);
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+a{
+    color:var(--color-white)
 }
