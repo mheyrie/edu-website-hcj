@@ -32,7 +32,7 @@
   --container-width-md: 90%;
   --container-width-sm: 95%;
 
-  ---transition: all 0.4s ease;
+  --transition: all 0.4s ease;
 }
 
 body {
@@ -59,7 +59,7 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5 {
   line-height: 1.2;
 }
 
@@ -75,6 +75,68 @@ h3 {
 h4 {
   font-size: 1.3rem;
 }
-a{
-    color:var(--color-white)
+a {
+  color: var(--color-white);
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--color-white);
+  color: var(--color-black);
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.btn-primary {
+  background: var(--color-danger);
+  color: var(--color-white);
+}
+
+/*=============== NAVBAR =============== */
+
+nav {
+  background: red;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.nav__menu a{
+    font-size: 0.9rem;
+    transition: all 400ms linear;
+}
+
+.nav__menu a:hover{
+    color: var(--color-bg2);
 }
