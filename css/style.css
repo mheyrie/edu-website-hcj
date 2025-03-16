@@ -15,7 +15,21 @@
 #4a5759
 #d5bdaf
 #6c584c */
-:root{
---color-primary: #bc6c25;
+:root {
+  --color-primary: #bc6c25;
+  --color-success: #00bf8e;
+  --color-warning: #4a5759;
+  --color-danger: #f75842;
+  --color-danger-variant: rgba(247, 88, 66, 0.5);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-bg: #6c584c;
+  --color-bg1: #d5bdaf;
+  --color-bg2: #4a5759;
 
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 95%;
+
+  ---transition: all 0.4s ease;
 }
