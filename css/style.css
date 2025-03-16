@@ -107,7 +107,7 @@ img {
 /*=============== NAVBAR =============== */
 
 nav {
-  background: red;
+  background: transparent;
   width: 100vw;
   height: 5rem;
   position: fixed;
@@ -134,7 +134,7 @@ nav button{
 
 .nav__menu a{
     font-size: 0.9rem;
-    transition: all 400ms linear;
+    transition: all 500ms linear;
 }
 
 .nav__menu a:hover{
