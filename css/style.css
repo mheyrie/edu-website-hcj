@@ -220,8 +220,7 @@ header{
  }
 
  .category:nth-child(2){
-    box-shadow: 0 3rem 3rem rgba(0,0,0,0.3);
-    z-index: 1;
+    background: var(--color-danger);
  }
 
  .category__icon{
