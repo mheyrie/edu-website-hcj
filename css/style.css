@@ -231,7 +231,7 @@ header{
     background: var(--color-warning);
  }
  .category:nth-child(5) .category__icon{
-    background: var(--color-danger);
+    background: var(--color-success);
  }
  .category:nth-child(6) .category__icon{
     background: var(--color-danger);
