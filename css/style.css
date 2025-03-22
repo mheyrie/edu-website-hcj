@@ -222,6 +222,10 @@ header{
  .category:nth-child(2) .category__icon{
     background: var(--color-danger);
  }
+ 
+ .category:nth-child(2) .category__icon{
+    background: var(--color-danger);
+ }
 
  .category__icon{
     background: var(--color-primary);
