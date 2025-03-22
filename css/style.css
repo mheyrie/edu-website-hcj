@@ -227,7 +227,7 @@ header{
     background: var(--color-danger);
  }
 
- .category:nth-child(2) .category__icon{
+ .category:nth-child(4) .category__icon{
     background: var(--color-danger);
  }
 
