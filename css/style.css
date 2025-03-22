@@ -230,10 +230,10 @@ header{
  .category:nth-child(4) .category__icon{
     background: var(--color-danger);
  }
- .category:nth-child(4) .category__icon{
+ .category:nth-child(5) .category__icon{
     background: var(--color-danger);
  }
- .category:nth-child(4) .category__icon{
+ .category:nth-child(6) .category__icon{
     background: var(--color-danger);
  }
 
