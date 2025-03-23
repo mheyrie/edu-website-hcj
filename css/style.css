@@ -115,6 +115,11 @@ nav {
   z-index: 11;
 }
 
+/* change navbar styles on scroll using javascript */
+.window-scroll{
+
+}
+
 .nav__container {
   display: flex;
   justify-content: space-between;
