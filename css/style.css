@@ -18,7 +18,7 @@
 :root {
   --color-primary: #e9c46a;
   --color-success: #00bf8e;
-  --color-warning: #4a5759;
+  --color-warning: #0d515c;
   --color-danger: #f75842;
   --color-danger-variant: rgba(247, 88, 66, 0.5);
   --color-white: #fff;
@@ -239,7 +239,7 @@ header {
 
 .category__icon {
   background: var(--color-primary);
-  padding: 0.7rem;
+  padding: 0.9rem;
   border-radius: 0.9rem;
 }
 
