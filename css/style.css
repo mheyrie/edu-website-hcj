@@ -265,4 +265,10 @@ header {
 .courses__container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
- }
+  gap: 2rem;
+}
+
+.course{
+  background: var(--color-bg1);
+  text-align: center;
+}
