@@ -271,4 +271,5 @@ header {
 .course{
   background: var(--color-bg1);
   text-align: center;
+  border: 1px solid transparent;
 }
