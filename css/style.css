@@ -278,3 +278,7 @@ header {
   border: 1px solid var(--color-danger);
   background: transparent;
   }
+
+.course__info{
+  padding: 2rem;
+}
