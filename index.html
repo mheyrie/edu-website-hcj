@@ -7,6 +7,7 @@
     <link rel="icon" href="./images/favicon.ico" type="image/favicon.ico">
     <title>Responsive Education Multi-page Website Using HTML, CSS and JavaScript</title>
     <link rel="stylesheet" href="./css/style.css">
+
     <!-- For Awesome font-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -17,7 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
+
+    <!-- Swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
     <script src="./main.js" defer></script>
+
 </head>
 
 <body>
@@ -263,10 +270,10 @@
 
 
     <!--============ TESTIMONIAL SECTION ============== -->
-    <section class="section container testimonials__container">
+    <section class="section container testimonials__container mySwiper">
         <h2 class="">Students' Testimonial</h2>
-        <div class="">
-            <article class="testimonial">
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar1.jpg" alt="">
                 </div>
@@ -282,7 +289,7 @@
                     </p>
                 </div>
             </article>
-            <article class="testimonial">
+            <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar2.jpg" alt="">
                 </div>
@@ -298,7 +305,7 @@
                     </p>
                 </div>
             </article>
-            <article class="testimonial">
+            <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar3.jpg" alt="">
                 </div>
@@ -314,7 +321,7 @@
                     </p>
                 </div>
             </article>
-            <article class="testimonial">
+            <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar4.jpg" alt="">
                 </div>
@@ -330,7 +337,7 @@
                     </p>
                 </div>
             </article>
-            <article class="testimonial">
+            <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="./images/avatar5.jpg" alt="">
                 </div>
@@ -342,7 +349,8 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda pariatur
                         praesentium corrupti, totam saepe eveniet omnis vel illo aut, consectetur quidem repellat
-                        reiciendis officiis. 
+                        reiciendis officiis.Totam saepe eveniet omnis vel illo aut, consectetur quidem repellat
+                        reiciendis officiis.
                     </p>
                 </div>
             </article>
@@ -350,6 +358,18 @@
     </section>
     <!--============ END OF TESTIMONIALSECTION ============== -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+
+        })
+    </script>
 
 </body>
 
