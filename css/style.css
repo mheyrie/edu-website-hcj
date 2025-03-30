@@ -323,4 +323,9 @@ header {
 
 .faq p{
   margin-top: 0.8rem;
+  display: none;
+}
+
+.faq.open p {
+  display: block;
 }
