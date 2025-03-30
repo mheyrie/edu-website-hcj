@@ -262,35 +262,61 @@ header {
   margin-top: 10rem;
 }
 
-.courses__container{
+.courses__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-.course{
+.course {
   background: var(--color-bg1);
   text-align: center;
   border: 1px solid transparent;
 }
 
-.course:hover{
+.course:hover {
   border: 1px solid var(--color-bg1);
   border-radius: 5px;
   background: transparent;
-  }
+}
 
-.course__info{
+.course__info {
   padding: 2rem;
 }
 
-.course__info p{
+.course__info p {
   margin: 1.2rem 0 2rem;
   font-size: 0.9rem;
 }
 
 /* ================ FAQ ================ */
-.faqs{
+.faqs {
   background: var(--color-bg1);
-  box-shadow: inset 0 0 10rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.faqs__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.faq {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  height: fit-content;
+  background: var(--color-bg2);
+  cursor: pointer;
+}
+
+.faq h4 {
+  font-size: 1rem;
+  line-height: 2.2;
+}
+
+.faq__icon {
+  align-self: flex-start;
+  font-size: 1.2rem;
 }
