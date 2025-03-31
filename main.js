@@ -15,15 +15,34 @@ faqs.forEach((faq) => {
     const icon = faq.querySelector(".faq__icon i");
     if (icon.className === "fa-solid fa-plus") {
       icon.className = "fa-solid fa-minus";
-    }else{
-        icon.className = "fa-solid fa-plus";
+    } else {
+      icon.className = "fa-solid fa-plus";
     }
   });
 });
 
-
 //current Year
-document.addEventListener('DOMContentLoaded', function() {
-    var currentYear = new Date().getFullYear();
-    document.getElementById('currentYear').textContent = currentYear;
-   });
+document.addEventListener("DOMContentLoaded", function () {
+  var currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").textContent = currentYear;
+});
+
+//hide/show mobile menu
+const menu = document.querySelector(".nav__menu");
+const menuBtn = document.querySelector("#open-menu-btn");
+const closeBtn = document.querySelector("#close-menu-btn");
+
+menuBtn.addEventListener("click", () => {
+  menu.style.display = "flex";
+  closeBtn.style.display = "inline-block";
+  menuBtn.style.display = "none";
+});
+
+//close mobile menu
+const closeNav = () => {
+  menu.style.display = "none";
+  closeBtn.style.display = "none";
+  menuBtn.style.display = "inline-block";
+};
+
+closeBtn.addEventListener("click", closeNav);
