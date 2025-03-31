@@ -463,4 +463,11 @@ footer ul li a:hover {
   }
 
   /* ================ NAVBAR ================ */
+  nav button {
+    display: inline-block;
+    background: transparent;
+    font-size: 1.8rem;
+    color: var(--color-white);
+    cursor: pointer;
+    }
 }
