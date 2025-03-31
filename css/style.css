@@ -392,3 +392,25 @@ header {
   border-right: 1rem solid transparent;
   border-top: 1rem solid var(--color-danger-variant);
 }
+
+/* ================ FOOTER ================ */
+footer {
+  background: var(--color-bg2);
+  padding: 4rem 0;
+  color: var(--color-light);
+  font-size: 0.9rem;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5rem;
+}
+
+.footer__container > div h4{
+  margin-bottom: 2rem;
+}
+
+.footer__1 p{
+  margin: 0 0 2rem;
+}
