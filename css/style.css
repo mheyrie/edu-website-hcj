@@ -424,6 +424,12 @@ footer ul li a:hover {
   color: var(--color-light);
 }
 
+.footer__4 .newsletter {
+  height: 40px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
 .footer__socials{
   display: flex;
   gap: 1rem;
