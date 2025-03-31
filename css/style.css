@@ -396,7 +396,7 @@ header {
 /* ================ FOOTER ================ */
 footer {
   background: var(--color-bg2);
-  padding: 4rem 0;
+  padding: 4rem 0 1rem 0;
   color: var(--color-light);
   font-size: 0.9rem;
 }
@@ -404,7 +404,7 @@ footer {
 .footer__container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .footer__container > div h4{
@@ -413,4 +413,14 @@ footer {
 
 .footer__1 p{
   margin: 0 0 2rem;
+}
+
+footer ul li{
+  margin-bottom: 0.7rem;
+}
+
+.footer__copyright{
+  grid-column: 1 / -1;
+  text-align: center;
+    margin-top: 1rem;
 }
