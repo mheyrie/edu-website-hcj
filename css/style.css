@@ -348,7 +348,7 @@ header {
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-       cursor: grab;
+  cursor: grab;
 }
 
 .avatar {
@@ -407,20 +407,20 @@ footer {
   gap: 2rem;
 }
 
-.footer__container > div h4{
+.footer__container > div h4 {
   margin-bottom: 2rem;
 }
 
-.footer__1 p{
+.footer__1 p {
   margin: 0 0 2rem;
 }
 
-footer ul li{
+footer ul li {
   margin-bottom: 0.7rem;
 }
 
-.footer__copyright{
+.footer__copyright {
   grid-column: 1 / -1;
   text-align: center;
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
