@@ -20,3 +20,10 @@ faqs.forEach((faq) => {
     }
   });
 });
+
+
+//current Year
+document.addEventListener('DOMContentLoaded', function() {
+    var currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+   });

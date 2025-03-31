@@ -383,7 +383,7 @@ header {
   );
   display: block;
   top: -1.5rem;
-  left: 50%;
+  left: 45%;
   /* transform: translateX(-50%); */
   transform: rotate(45deg);
   width: 3rem;
