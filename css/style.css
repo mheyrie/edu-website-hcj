@@ -419,6 +419,18 @@ footer ul li {
   margin-bottom: 0.7rem;
 }
 
+footer ul li a:hover {
+  text-decoration: underline;
+  color: var(--color-light);
+}
+
+.footer__socials{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
 .footer__copyright {
   grid-column: 1 / -1;
   text-align: center;
