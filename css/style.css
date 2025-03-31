@@ -309,6 +309,10 @@ header {
   height: fit-content;
   background: var(--color-bg2);
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 1s ease-out;
 }
 
 .faq h4 {
@@ -321,7 +325,7 @@ header {
   font-size: 1.2rem;
 }
 
-.faq p{
+.faq p {
   margin-top: 0.8rem;
   display: none;
 }
@@ -331,17 +335,22 @@ header {
 }
 
 /* ================ TESTIMONIALS ================ */
-.testimonials__container{
+.testimonials__container {
   overflow-x: hidden;
   position: relative;
   margin-bottom: 5rem;
 }
 
-.testimonial{
+.testimonial {
   padding-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.avatar{
+.avatar {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
@@ -350,30 +359,35 @@ header {
   border: 1rem solid var(--color-bg1);
 }
 
-.testimonial__info{
+.testimonial__info {
   text-align: center;
 }
 
-.testimonial__body{
+.testimonial__body {
   background: var(--color-danger);
   padding: 2rem;
   margin-top: 3rem;
   position: relative;
 }
 
-.testimonial__body::before{
-  content: '';
+.testimonial__body::before {
+  content: "";
   position: absolute;
-  background: linear-gradient(135deg, transparent ,var(--color-danger), var(--color-danger-variant), var(--color-danger-variant) );
+  background: linear-gradient(
+    135deg,
+    transparent,
+    var(--color-danger),
+    var(--color-danger-variant),
+    var(--color-danger-variant)
+  );
   display: block;
   top: -1.5rem;
   left: 50%;
   /* transform: translateX(-50%); */
-  transform: rotate( 45deg);
+  transform: rotate(45deg);
   width: 3rem;
   height: 3rem;
   border-left: 1rem solid transparent;
   border-right: 1rem solid transparent;
   border-top: 1rem solid var(--color-danger-variant);
 }
-
