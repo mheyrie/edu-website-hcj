@@ -11,3 +11,16 @@
     .about__achievements__left > p {
         margin: 1.6rem 0 2.5rem;
     }
+
+    .achievements__cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .achievements__card{
+        background-color: var(--color-bg1);
+        padding: 1.5rem;
+        border-radius: 1rem;
+        text-align: center;
+    }
