@@ -117,3 +117,28 @@
   padding: 1rem;
   transition: var(--transition);
 }
+
+
+/* ====================MEDIA QUERIES (TABLETS)==================== */
+@media screen and (max-width: 1024px){
+    .about__achievements{
+        margin-top: 2rem;
+    }
+    .about__achievements__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .about__achievement__left{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .team__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .team__member {
+        padding: 1rem;
+    }
+}
