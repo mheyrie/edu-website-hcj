@@ -70,6 +70,8 @@
   padding: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  position: relative;
+    overflow: hidden;
 }
 
 .team__member:hover {
@@ -92,4 +94,26 @@
 
 .team__member__info p {
   color: var(--color-light);
+}
+
+.team__member__socials {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-primary);
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: var(--transition);
+}
+
+.team__member:hover .team__member__socials{
+    right: 0;
+}
+
+.team__member__socials a {
+  padding: 1rem;
+  transition: var(--transition);
 }
