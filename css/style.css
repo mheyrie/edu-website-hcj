@@ -470,6 +470,7 @@ footer ul li a:hover {
     display: none;
   }
   .nav__menu {
+    display: none;
     position: fixed;
     top: 5rem;
     right: 5%;
