@@ -44,6 +44,11 @@
     .achievement__card:nth-child(2) .achievement__icon{
         background: var(--color-primary);
     }
+
     .achievement__card:nth-child(3) .achievement__icon{
         background: var(--color-success);
+    }
+
+    .achievement__card{
+        margin-top: 1rem;
     }
