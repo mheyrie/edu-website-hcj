@@ -478,45 +478,98 @@ footer ul li a:hover {
     flex-direction: column;
     gap: 0;
   }
-.nav__menu li{
-  width: 100%;
-  height:5.8rem;
-  animation: animateNavItems 400ms linear forwards;
-  transform-origin: top right;
-  opacity: 0;
-}
-
-.nav__menu li:nth-child(2){
-animation-delay: 200ms;
-}
-.nav__menu li:nth-child(3){
-animation-delay: 400ms;
-}
-.nav__menu li:nth-child(4){
-animation-delay: 600ms;
-}
-
-@keyframes animateNavItems {
-  from {
+  .nav__menu li {
+    width: 100%;
+    height: 5.8rem;
+    animation: animateNavItems 400ms linear forwards;
+    transform-origin: top right;
     opacity: 0;
-    transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
   }
-  to {
-    opacity: 1;
-    transform: rotateZ(0) rotateX(0) scale(1);
+
+  .nav__menu li:nth-child(2) {
+    animation-delay: 200ms;
   }
+  .nav__menu li:nth-child(3) {
+    animation-delay: 400ms;
   }
-.nav__menu li a{
-  background: var(--color-bg1);
-  box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  color: rgb(81, 71, 71);
+  .nav__menu li:nth-child(4) {
+    animation-delay: 600ms;
+  }
+
+  @keyframes animateNavItems {
+    from {
+      opacity: 0;
+      transform: rotateZ(-90deg) rotateX(90deg) scale(0.1);
+    }
+    to {
+      opacity: 1;
+      transform: rotateZ(0) rotateX(0) scale(1);
+    }
+  }
+  .nav__menu li a {
+    background: var(--color-bg1);
+    box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: rgb(81, 71, 71);
+  }
+  .nav__menu li a:hover {
+    background: var(--color-bg2-variant);
+    color: var(--color-black);
+  }
+
+  /* ================ HEADER ================ */
+  header{
+    height: 67vh;
+    margin-bottom: 4rem;
+  }
+
+  .header__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+  .header__left .hero-text{
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
+  /* ================ CATEGORIES ================ */
+
+.categories{
+height: auto;
 }
-.nav__menu li a:hover{
-  background: var(--color-bg2-variant);
-  color: var(--color-black);
+.categories__container{
+  grid-template-columns: 1fr; 
+gap: 3rem;
 }
+.categories__left{
+  margin-right: 0;
+}
+
+
+
+  /* ================ POPULAR COURSES ================ */
+
+
+
+
+
+  /* ================ FAQs ================ */
+
+
+
+  /* ================ TESTIMONIALS ================ */
+
+
+
+
+
+  /* ================ FOOTER ================ */
+
+
+
+
 }
