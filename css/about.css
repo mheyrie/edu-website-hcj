@@ -1,14 +1,15 @@
   /* ================ ACHIEVEMENTS ================ */
   .about__achievements {
-        margin-top: 50px;
+        margin-top: 3rem;
   }
 
     .about__achievements__container {
         display: grid;
            grid-template-columns: 40% 60%;
+           gap: 5rem;
     }
 
-    .about__achievements__left > p {
+    .about__achievement__right> p {
         margin: 1.6rem 0 2.5rem;
     }
 
@@ -18,9 +19,15 @@
         gap: 1.5rem;
     }
 
-    .achievements__card{
-        background-color: var(--color-bg1);
+    .achievement__card{
+        background-color: var(--color-bg2);
         padding: 1.5rem;
         border-radius: 1rem;
         text-align: center;
+        transition: var(--transition);
+        }
+
+    .achievement__card:hover{
+        background: var(--color-primary); 
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
     }
