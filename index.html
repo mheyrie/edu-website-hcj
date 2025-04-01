@@ -340,7 +340,7 @@
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque assumenda pariatur
                         praesentium corrupti, totam saepe eveniet omnis vel illo aut, consectetur quidem repellat
-                        reiciendis officiis.Totam saepe eveniet omnis vel illo aut, consectetur reiciendis officiis.
+                        reiciendis officiis.Totam saepe eveniet omnis vel illo aut.
                     </p>
                 </div>
             </article>
@@ -419,13 +419,20 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 30,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
-            }
-            ,
+            }            ,
+
+            //when window is resized
+            breakpoints: {
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                }
+            },
         })
     </script>
 

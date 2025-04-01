@@ -549,27 +549,110 @@ gap: 3rem;
   margin-right: 0;
 }
 
-
-
   /* ================ POPULAR COURSES ================ */
 
-
-
-
-
+.course{
+  margin-top: 0;
+}
+.courses__container{
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
   /* ================ FAQs ================ */
-
-
+  .faqs__container{
+    grid-template-columns: 1fr;
+  }
+.faq{
+  padding: 1.5rem;
+}
 
   /* ================ TESTIMONIALS ================ */
-
-
-
-
+  .testimonials__container{
+    margin-bottom: 1rem;
+    }
 
   /* ================ FOOTER ================ */
+.footer__container{
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+}
 
+/* ================ MEDIA QUERIES (MOBILE) ================ */
+@media screen and (max-width:600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 
+  /* ================ NAVBAR ================ */
+  .nav__menu {
+    right: 3%;
+  }
+  .nav__container{
+   padding-right: 1rem;
+  }
 
+  /* ================ HEADER ================ */
+  header {
+    height: 100vh;
+  }
 
+  .header__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .header__left .hero-text {
+    font-size: 1.2rem;
+    line-height: 20px;
+  }
+
+  /* ================ CATEGORIES ================ */
+  .categories__right {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .category{
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .categories__icon {
+    margin-top: 4px;
+    display: inline-block;
+  }
+
+  /* ================ POPULAR COURSES ================ */
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses__container {
+    grid-template-columns: 1fr;
+      }
+
+  /* ================ FAQs ================ */
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+
+  .faq {
+    padding: 1.5rem;
+  }
+
+  /* ================ TESTIMONIALS ================ */
+  .testimonial__body{
+    padding: 1rem;
+  }
+  .testimonials__container {
+    margin-bottom: 1rem;
+  }
+
+  /* ================ FOOTER ================ */
+  .footer__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
