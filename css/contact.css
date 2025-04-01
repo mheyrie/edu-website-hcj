@@ -116,18 +116,19 @@ textarea {
 @media screen and (max-width: 600px) {
   .contact__container {
     grid-template-columns: 1fr;
-    height: auto;
-    padding: 1.5rem;
-  }
-
-  .contact__aside {
-    bottom: 0;
-    padding: 1.5rem;
-    width: auto;
+    gap: 3rem;
+  margin-top: 0;
+  padding: 0;
   }
 
   .contact__form {
-    align-self: center;
-    margin-right: 0;
+    margin: 0 1.5rem 3rem;
+  }
+
+  .form__name {
+    flex-direction: column;
+  }
+  .form__name input[type="text"] {
+    width: 100%;
   }
 }
